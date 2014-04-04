@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.guimagames.pop"
+        versionCode="1.0.0" 
+        version   = "1.0.0">
+    <name>Pop</name>
+    <description>
+        Pop. 
+    </description>
+
+    <author href="http://guimagames.wordpress.com" email="rafaelguima@outlook.com">
+        Rafael Guimarães dos Santos
+    </author>
+	
+	<preference name="fullscreen" value="true" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="stay-in-webview" value="true" />
+	
+	
+	<icon src="icons/android/guimagames72.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/guimagames72.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/guimagames72.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/guimagames128.png" gap:platform="android" gap:density="xhdpi" />
+	
+	<gap:splash src="splash.png" />
+	
+	<feature name="http://api.phonegap.com/1.0/file"/>
+	<feature name="http://api.phonegap.com/1.0/media"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<feature name="http://api.phonegap.com/1.0/notification"/>
+	
+	<access origin="http://phonegap.com" browserOnly="true" />
+</widget>

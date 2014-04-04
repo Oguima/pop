@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" usedSchemaVersion="1.0">
+    <widget widgetVersion="1.0">
+        <description>Pop</description>
+        <rootfile>index.html</rootfile>
+		<properties>
+			<stringProperty id="id">
+				<label>Identificacao (ex.: pop)</label>
+				<value xsi:nil="true"/>
+			</stringProperty>
+		</properties>
+    </widget>
+</manifest>
